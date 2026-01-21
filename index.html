@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fab fa-facebook"></i>
+                <span>facebook</span>
+            </div>
+            
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search Facebook">
+            </div>
+
+            <nav class="nav-icons">
+                <a href="#" class="nav-item" title="Home">
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="#" class="nav-item" title="Friends">
+                    <i class="fas fa-users"></i>
+                </a>
+                <a href="#" class="nav-item" title="Messages">
+                    <i class="fas fa-comment"></i>
+                </a>
+                <a href="#" class="nav-item" title="Notifications">
+                    <i class="fas fa-bell"></i>
+                </a>
+                <a href="#" class="nav-item" title="Profile">
+                    <i class="fas fa-user"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-item active">
+                <i class="fas fa-user"></i>
+                <span>Your Profile</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-users"></i>
+                <span>Friends</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-flag"></i>
+                <span>Pages</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-calendar"></i>
+                <span>Events</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-images"></i>
+                <span>Photos</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-video"></i>
+                <span>Videos</span>
+            </div>
+            <div class="sidebar-item">
+                <i class="fas fa-bookmark"></i>
+                <span>Saved</span>
+            </div>
+            <hr>
+            <div class="sidebar-title">Groups</div>
+            <div class="sidebar-item">
+                <span>Web Developers</span>
+            </div>
+            <div class="sidebar-item">
+                <span>Design Community</span>
+            </div>
+            <div class="sidebar-item">
+                <span>Tech Enthusiasts</span>
+            </div>
+        </aside>
+
+        <!-- Main Feed -->
+        <main class="feed">
+            <!-- Create Post -->
+            <div class="post-creator">
+                <div class="creator-header">
+                    <img src="https://via.placeholder.com/40" alt="Profile" class="profile-pic">
+                    <input type="text" placeholder="What's on your mind?">
+                </div>
+                <div class="creator-actions">
+                    <button class="action-btn">
+                        <i class="fas fa-image"></i>
+                        <span>Photo/Video</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-smile"></i>
+                        <span>Feeling/Activity</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Check In</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Posts -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/40" alt="Profile" class="profile-pic">
+                    <div class="post-info">
+                        <h4>John Doe</h4>
+                        <span class="time">2 hours ago</span>
+                    </div>
+                    <button class="menu-btn">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                </div>
+                <div class="post-content">
+                    <p>Just finished an amazing project! Feeling accomplished today. 🎉</p>
+                </div>
+                <img src="https://via.placeholder.com/500x300" alt="Post" class="post-image">
+                <div class="post-stats">
+                    <span><i class="fas fa-thumbs-up"></i> 1.2K</span>
+                    <span>542 Comments</span>
+                    <span>89 Shares</span>
+                </div>
+                <div class="post-actions">
+                    <button class="post-action-btn">
+                        <i class="fas fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </button>
+                    <button class="post-action-btn">
+                        <i class="fas fa-comment"></i>
+                        <span>Comment</span>
+                    </button>
+                    <button class="post-action-btn">
+                        <i class="fas fa-share"></i>
+                        <span>Share</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/40" alt="Profile" class="profile-pic">
+                    <div class="post-info">
+                        <h4>Sarah Smith</h4>
+                        <span class="time">4 hours ago</span>
+                    </div>
+                    <button class="menu-btn">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                </div>
+                <div class="post-content">
+                    <p>Beautiful sunset at the beach today! 🌅 Nature is amazing.</p>
+                </div>
+                <img src="https://via.placeholder.com/500x300" alt="Post" class="post-image">
+                <div class="post-stats">
+                    <span><i class="fas fa-thumbs-up"></i> 2.5K</span>
+                    <span>890 Comments</span>
+                    <span>234 Shares</span>
+                </div>
+                <div class="post-actions">
+                    <button class="post-action-btn">
+                        <i class="fas fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </button>
+                    <button class="post-action-btn">
+                        <i class="fas fa-comment"></i>
+                        <span>Comment</span>
+                    </button>
+                    <button class="post-action-btn">
+                        <i class="fas fa-share"></i>
+                        <span>Share</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://via.placeholder.com/40" alt="Profile" class="profile-pic">
+                    <div class="post-info">
+                        <h4>Mike Johnson</h4>
+                        <span class="time">6 hours ago</span>
+                    </div>
+                    <button class="menu-btn">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </button>
+                </div>
+                <div class="post-content">
+                    <p>Check out this new technology framework I discovered! It's going to change web development 💻</p>
+                </div>
+                <img src="https://via.placeholder.com/500x300" alt="Post" class="post-image">
+                <div class="post-stats">
+                    <span><i class="fas fa-thumbs-up"></i> 3.1K</span>
+                    <span>1.2K Comments</span>
+                    <span>567 Shares</span>
+                </div>
+                <div class="post-actions">
+                    <button class="post-action-btn">
+                        <i class="fas fa-thumbs-up"></i>
+                        <span>Like</span>
+                    </button>
+                    <button class="post-action-btn">
+                        <i class="fas fa-comment"></i>
+                        <span>Comment</span>
+                    </button>
+                    <button class="post-action-btn">
+                        <i class="fas fa-share"></i>
+                        <span>Share</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <div class="widget">
+                <h3 class="widget-title">Friends Online</h3>
+                <div class="friend">
+                    <div class="friend-avatar">
+                        <img src="https://via.placeholder.com/32" alt="Friend">
+                        <div class="status-indicator"></div>
+                    </div>
+                    <span>Alice Brown</span>
+                </div>
+                <div class="friend">
+                    <div class="friend-avatar">
+                        <img src="https://via.placeholder.com/32" alt="Friend">
+                        <div class="status-indicator"></div>
+                    </div>
+                    <span>Bob Wilson</span>
+                </div>
+                <div class="friend">
+                    <div class="friend-avatar">
+                        <img src="https://via.placeholder.com/32" alt="Friend">
+                        <div class="status-indicator"></div>
+                    </div>
+                    <span>Carol Davis</span>
+                </div>
+                <div class="friend">
+                    <div class="friend-avatar">
+                        <img src="https://via.placeholder.com/32" alt="Friend">
+                        <div class="status-indicator"></div>
+                    </div>
+                    <span>David Miller</span>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3 class="widget-title">Suggested Pages</h3>
+                <div class="suggestion">
+                    <img src="https://via.placeholder.com/40" alt="Page">
+                    <div class="suggestion-info">
+                        <h4>Tech News Daily</h4>
+                        <p>124K followers</p>
+                    </div>
+                    <button class="follow-btn">Follow</button>
+                </div>
+                <div class="suggestion">
+                    <img src="https://via.placeholder.com/40" alt="Page">
+                    <div class="suggestion-info">
+                        <h4>Design Inspiration</h4>
+                        <p>89K followers</p>
+                    </div>
+                    <button class="follow-btn">Follow</button>
+                </div>
+                <div class="suggestion">
+                    <img src="https://via.placeholder.com/40" alt="Page">
+                    <div class="suggestion-info">
+                        <h4>Coding Tips</h4>
+                        <p>256K followers</p>
+                    </div>
+                    <button class="follow-btn">Follow</button>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
